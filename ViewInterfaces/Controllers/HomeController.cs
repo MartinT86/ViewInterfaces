@@ -22,13 +22,6 @@ namespace ViewInterfaces.Controllers
             return View(model);
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
         public ActionResult AnotherPage()
         {
             var model = new AnotherPageViewModel()
