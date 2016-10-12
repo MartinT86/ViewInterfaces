@@ -1,0 +1,8 @@
+﻿@model ViewInterfaces.Models.HomeViewModel
+
+@{
+    ViewBag.Title = "Home Page";
+}
+
+@Html.Partial("/Views/Partials/_TitleSection.cshtml", Model)
+@Html.Partial("/Views/Partials/_BodySection.cshtml", Model)
